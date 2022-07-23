@@ -16,19 +16,20 @@
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 
-    <title>Document</title>
+    <title>G°22</title>
 </head>
 
 <body>
-    <header class="container-fluid mx-0 bg-secondary d-flex justify-content-center">
+    <header class="container-fluid mx-0 bg-secondary mt-5 d-flex justify-content-center">
         <p class="text-light  mb-0 p-2" id="texto1"> Felipe Bravo <span><i class="fa-regular fa-face-laugh-wink"></i>
             </span>Desafio Latam
             generación °22 </p>
     </header>
 
-    <nav class="navbar sticky-top navbar-expand-lg" id="nav">
-        <div class="container-fluid">
+    <nav class="navbar  navbar-expand-lg fixed-top" id="nav">
+        <div class="container-fluid ">
             <a class="navbar-brand" href="#">Desafio Latam</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -36,19 +37,17 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Mis Trabajos</a>
+                        <a class="nav-link" href="#proyectos">Mis proyectos</a>
                     </li>
 
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">redes sociales</a>
-                    </li>
+
                 </ul>
 
             </div>
@@ -57,13 +56,85 @@
 
     <main>
 
+        <article class="fondo">
+            <div class="container">
+                <div class="texto2" id="home">
+                    <h1>Bienvenidos a mi Portafolio</h1>
+                </div>
+            </div>
+        </article>
+
+        <article class="fondo2">
+
+            <div class="container d-flex justify-content-center ">
+                <div class="row">
+
+                    <h2 class="texto3 text-center mt-5" id="proyectos">Mis proyectos</h2>
+
+                    <div class="col-6 col-md-6 ">
+
+                        <div class="card  mt-5  " style="width: 10rem">
+                            <img src="assets/img/desafio 1.png" class="card-img-top" alt="desafio 1">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Desafio 1</h5>
+                                <p class="card-text">link repositorio</p>
+                                <a href="#" class="btn btn-primary">Repositorio</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-6 col-md-6 ">
+                        <div class="card  mt-5 ms-auto  " style="width: 10rem;">
+                            <img src="assets/img/desafio 2.png" class="card-img-top" alt="desafio 1">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Desafio 2</h5>
+                                <p class="card-text">link repositorio</p>
+                                <a href="#" class="btn btn-primary">Repositorio</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-6 ">
+                        <div class="card  mt-5   " style="width: 10rem;">
+                            <img src="assets/img/desafio 3.png" class="card-img-top" alt="desafio 1">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Desafio 3</h5>
+                                <p class="card-text">link repositorio</p>
+                                <a href="#" class="btn btn-primary" target="_blank">Repositorio</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-6 ">
+                        <div class="card  mt-5 mb-5 ms-auto  " style="width: 10rem;">
+                            <img src="assets/img/desafio 4.png" class="card-img-top" alt="desafio 1">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Desafio 4</h5>
+                                <p class="card-text">link repositorio</p>
+                                <a href="#" class="btn btn-primary">Repositorio</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </article>
+
     </main>
 
+    <footer>
 
-
-
-
-
+        <div class="creditos ">
+            <div class="textofooter text-center">
+                <p class="mb-0">Felipe bravo 2022. Todos los derechos reservados. <a href="https://github.com/Thoorcito"
+                        class="btn btn-light" target="_blank"><i class="fa-brands fa-github-alt"></i></a> </p>
+            </div>
+        </div>
+    </footer>
 
     <!-- JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
